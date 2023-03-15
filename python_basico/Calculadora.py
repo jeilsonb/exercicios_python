@@ -1,11 +1,5 @@
 # Calculadora Simples
 
-# Sinais 
-# "+" = Soma 
-# "-" = Subtração
-# "*" = Multiplicação
-# "/" = Divisão
-
 while True:
 
     print("\nDigite o Primeiro Número: ")
@@ -19,15 +13,19 @@ while True:
 
     if operador == '+':
         resultado = numero1 + numero2
+        print("\nA Soma é:")
         print(resultado)
     elif operador == '-':
         resultado = numero1 - numero2
+        print("\nA Subtração é:")
         print(resultado)
     elif operador == '*':
         resultado = numero1 * numero2
+        print("\nA Multiplicação é:")
         print(resultado)
     elif operador == '/':
         resultado = numero1 / numero2
+        print("\nA Divisão é:")
         print(resultado)
     else:
         print("\nOperador Inválido")
